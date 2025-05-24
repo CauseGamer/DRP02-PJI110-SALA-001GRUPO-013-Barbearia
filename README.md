@@ -35,11 +35,7 @@ O Figma foi uma mudança de jogo para obter validações rápidas de designs em 
 mesmo não-designers na equipe puderam participar do processo de revisão, assegurando a retenção das especificações do cliente.  
 
 ## Maria.DB (Banco De Dados) 
-Os modelos foram feitos a partir de necessidades reais (por exemplo, evitar sobreposição de horários).  
-Validação Iterativa: As tabelas indicam cenários de teste como: - “O que faço se um cliente cancelar um compromisso? ➔ status em Compromisso e registro em Acesso
-Compromisso - Documentação Bem Definida: Um diagrama de entidade abre espaço para explicações em 
-uma aplicação. 
---- Proposta de Adendo ao Relatório Adicione um diagrama ER (Entidade Relacionamento) das tabelas e relacionamentos, juntamente com breves explicações: > "O TOR foi modelado para uma gestão eficiente de compromissos, proporcionando rastreabilidade de ações e escalabilidade; o banco de dados, implementado em MariaDB, assegurou cada uma dessas necessidades. Seus relacionamentos 1:N modelam regras de negócios, como um serviço pode estar associado a muitos compromissos.” 
+O banco de dados da barbearia é estruturado em três tabelas: cliente, agendamentos e admins. Isso se resume em: clientes podem fazer múltiplos agendamentos, a tabela de agendamentos detalha data, hora, profissional etc. E por fim, o admin garante a consistência dos dados nas operações.  
 
 ## Linguagens de Programação: Node.JS e REACT 
 Para o backend escolhemos a linguagem de programação Node.Js, funciona melhor para aplicativos que exigem simultaneidade (vários cronogramas simultâneos). 
