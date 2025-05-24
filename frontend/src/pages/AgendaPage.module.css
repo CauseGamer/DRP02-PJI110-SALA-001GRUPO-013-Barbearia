@@ -1,0 +1,111 @@
+body, ul, li, p , button, div{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+body {
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: black;
+    position: relative;
+    z-index: 2;
+}
+
+.imagemcontainer {
+    width: 60px;
+    height: 60px;
+    margin-left: 130px;
+}
+
+.imagemcontainer img {
+    cursor: pointer;
+}
+
+.logo {
+    width: 100%;
+}
+
+.calendar {
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hour{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.confirmarAgendamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; 
+    margin: 50px auto; 
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.confirmarAgendamento h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.confirmarAgendamento p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.confirmarAgendamento p:last-of-type {
+    margin-bottom: 30px;
+}
+
+.confirmarAgendamento button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    width: 80%; 
+    max-width: 300px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+
+.confirmarAgendamento button:hover {
+    background-color: #218838; 
+    transform: translateY(-2px);
+}
+
+.confirmarAgendamento button:active {
+    transform: translateY(0); 
+}

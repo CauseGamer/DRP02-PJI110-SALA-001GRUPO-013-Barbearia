@@ -1,0 +1,100 @@
+body, ul, li, p , button{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+body {
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: black;
+}
+
+.imagemcontainer {
+    width: 60px;
+    height: 60px;
+    margin-left: 130px;
+}
+
+.imagemcontainer img {
+    cursor: pointer;
+}
+
+.logo {
+    width: 100%;
+}
+
+.gambi {
+    width: 70px;
+    height: 40px;
+    margin-right: 145px;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.sobre {
+    color: #B18A33;
+    cursor: pointer;
+}
+
+.home {
+    cursor: pointer;
+}
+
+.contatoButton {
+    cursor: pointer;
+}
+
+.home:hover {
+    color: #B18A33;
+    cursor: pointer;
+}
+.sobre:hover {
+    color: #B18A33;
+    cursor: pointer;
+}
+
+.contatoButton:hover {
+    color: #B18A33;
+    cursor: pointer;
+}
+
+.servicossobre {
+    margin-top: 75px;
+    display: flex;
+    align-items: flex-start;
+    gap: 74px;
+}
+
+.quadrinho {
+    width: 700px;
+    height: 1041px;
+    margin-left: 186px;
+}
+
+.servicos {
+    margin-bottom: 40px;
+}

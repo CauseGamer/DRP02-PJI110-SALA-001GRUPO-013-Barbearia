@@ -1,0 +1,20 @@
+.popup {
+    background-color: white;
+    width: 125px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.popup button {
+    border: none;
+    background-color: transparent;
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.popup button:hover {
+    background-color: transparent;
+    color: black;
+}

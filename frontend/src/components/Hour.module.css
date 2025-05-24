@@ -1,0 +1,72 @@
+
+.containerHour {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+
+.containerHour h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Estilos para a mensagem de status (erro ou sucesso) */
+.error {
+  background-color: #ffe0e0;
+  color: #cc0000;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.success {
+  background-color: #e0ffe0;
+  color: #00cc00;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.hoursGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  gap: 10px;
+}
+
+.hourButton {
+    border: 1px solid #B18A33;
+    border-radius: 6px;
+    color: #B18A33;
+    background-color: white;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hourButton:hover {
+  background-color: rgba(177, 138, 51, 0.2);
+}
+
+.selected {
+  background-color: black;
+  color: #B18A33;
+  border: 1px solid #B18A33;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.manhaHeader,
+.tardeHeader,
+.noiteHeader {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+  grid-column: 1 / -1;
+}

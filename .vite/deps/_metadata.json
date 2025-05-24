@@ -1,0 +1,58 @@
+{
+  "hash": "dbef2fc6",
+  "configHash": "ce3c1ded",
+  "lockfileHash": "0d72ea40",
+  "browserHash": "2fddb977",
+  "optimized": {
+    "moment": {
+      "src": "../../node_modules/moment/dist/moment.js",
+      "file": "moment.js",
+      "fileHash": "be5872ae",
+      "needsInterop": false
+    },
+    "moment/locale/pt-br": {
+      "src": "../../node_modules/moment/locale/pt-br.js",
+      "file": "moment_locale_pt-br.js",
+      "fileHash": "3ce0edb6",
+      "needsInterop": true
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "3de46a41",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "91f29d32",
+      "needsInterop": true
+    },
+    "react-router": {
+      "src": "../../node_modules/react-router/dist/development/index.mjs",
+      "file": "react-router.js",
+      "fileHash": "c8b970e8",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "2b752827",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-IZF5WFZL": {
+      "file": "chunk-IZF5WFZL.js"
+    },
+    "chunk-2BAB2IAF": {
+      "file": "chunk-2BAB2IAF.js"
+    },
+    "chunk-MKRPR6XY": {
+      "file": "chunk-MKRPR6XY.js"
+    },
+    "chunk-KEXKKQVW": {
+      "file": "chunk-KEXKKQVW.js"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.containerCalendar tbody tr td button {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: white;
+}
+
+.containerCalendar tbody tr td button:hover {
+  background-color: #EDE3CE;
+}
+
+.containerCalendar tbody tr td button:active {
+  background-color: #B18A33;
+}
+
+.containerCalendar tbody tr td button:focus {
+  background-color: #B18A33;
+}
+
+.dia-calendario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1em;
+  outline: none;
+}
+
+.selecionado {
+  border: none;
+}
+
+.selecionado:focus {
+  background-color: #B18A33; 
+  color: black;
+  font-weight: bold;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: none;
+  padding: 1px;
+  width: 68px;
+  height: 68px; 
+}
+
+.containerSetasMes{
+  display: flex;
+  justify-content: space-between;
+}
+
+.setaEsq {
+  width: 58px;
+  height: 58px;
+  border-radius: 20px;
+  border: none;
+}
+
+.setaDir {
+  width: 58px;
+  height: 58px;
+  border-radius: 20px;
+  border: none;
+}
+
+.outroMes{
+  color: rgb(197, 194, 194);
+}
+
+.setaEsq:hover {
+  background-color: gainsboro;
+}
+
+.setaDir:hover {
+  background-color: gainsboro;
+}
+
+.setaDir img {
+  width: 25px;
+}
+
+.setaEsq img {
+    width: 25px;
+}
+
+.diasSem {
+  color: black;
+  width: 68px;
+  height: 68px;
+}

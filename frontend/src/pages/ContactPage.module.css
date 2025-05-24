@@ -1,0 +1,175 @@
+body, ul, li, p , button{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+body {
+    height: 80px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: black;
+}
+
+.imagemcontainer {
+    width: 60px;
+    height: 60px;
+    margin-left: 130px;
+}
+
+.imagemcontainer img {
+    cursor: pointer;
+}
+
+.logo {
+    width: 100%;
+}
+
+.gambi {
+    width: 70px;
+    height: 40px;
+    margin-right: 145px;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 30px;
+}
+
+.contatoButton {
+    cursor: pointer;
+    color: #B18A33;
+}
+
+.sobre {
+    cursor: pointer;
+}
+
+.home {
+    cursor: pointer;
+}
+
+.home:hover {
+    color: #B18A33;
+    cursor: pointer;
+}
+.sobre:hover {
+    color: #B18A33;
+    cursor: pointer;
+}
+
+.contatoButton:hover {
+    color: #B18A33;
+    cursor: pointer;
+}
+
+.aligncontato {
+    text-align: center;
+    padding-top: 44px;
+}
+
+.textcontato {
+    font-size: 2.25rem;
+}
+
+.corpopage {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 141px;
+}
+
+.contato li a {
+    font-size: 1rem;
+    color: black;
+}
+
+.iconmarker {
+    width: 30px;
+    margin-right: 22px;
+}
+
+.iconphone {
+    width: 30px;
+    margin-right: 22px;
+}
+
+.iconinsta {
+    width: 30px;
+    margin-right: 22px;
+}
+
+.gustavoimage {
+    margin-left: 186px;
+    width: 500px;
+    height: 610px;
+}
+
+.corpocontato {
+    width: 480px;
+    height: 300px;
+    background-color: #B18A33;
+    padding-top: 1px;
+    margin-right: 143px;
+}
+
+.contatoText {
+    margin-left: 49px;
+    margin-top: 19px;
+    font-size: 1.2rem;
+}
+
+.containercontato {
+    margin-top: 30px;
+    margin-left: 65px;
+}
+
+.containercontato li a{
+    font-size: 1rem;
+    color: black;
+}
+
+.marker {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.insta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.enderecoText:hover,
+.numeroText:hover,
+.instaText:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1",
+        "titulo": "Corte",
+        "tempo": "30min",
+        "valor": "R$40"
+    },
+    {
+        "id": "2",
+        "titulo": "Barba",
+        "tempo": "20min",
+        "valor": "R$35"
+    },
+    {
+        "id": "3",
+        "titulo": "Sobrancelha",
+        "tempo": "10min",
+        "valor": "R$15"
+    },
+    {
+        "id": "4",
+        "titulo": "Hidratação Cabelo ou Barba",
+        "tempo": "10min",
+        "valor": "R$25"
+    },
+    {
+        "id": "5",
+        "titulo": "Limpeza Facial",
+        "tempo": "20min",
+        "valor": "R$30"
+    },
+    {
+        "id": "6",
+        "titulo": "Luzes",
+        "tempo": "40min",
+        "valor": "R$50"
+    },
+    {
+        "id": "7",
+        "titulo": "Pigmentação",
+        "tempo": "20min",
+        "valor": "R$25"
+    },
+    {
+        "id": "8",
+        "titulo": "Alisamento Americano",
+        "tempo": "20min",
+        "valor": "R$50"
+    },
+    {
+        "id": "9",
+        "titulo": "Platinado",
+        "tempo": "60min",
+        "valor": "R$120"
+    },
+    {
+        "id": "10",
+        "titulo": "Corte + Sobrancelha",
+        "tempo": "40min",
+        "valor": "R$50"
+    },
+    {
+        "id": "11",
+        "titulo": "Corte + Barba",
+        "tempo": "50min",
+        "valor": "R$75"
+    },
+    {
+        "id": "12",
+        "titulo": "Corte + Barba + Sobrancelha",
+        "tempo": "60min",
+        "valor": "R$85"
+    },
+    {
+        "id": "13",
+        "titulo": "Corte + Hidratação",
+        "tempo": "40min",
+        "valor": "R$65"
+    },
+    {
+        "id": "14",
+        "titulo": "Barba + Hidratação",
+        "tempo": "30min",
+        "valor": "R$60"
+    },
+    {
+        "id": "15",
+        "titulo": "Corte + Pigmentação",
+        "tempo": "40min",
+        "valor": "R$65"
+    },
+    {
+        "id": "16",
+        "titulo": "Corte + Barba + Pigmentação",
+        "tempo": "60min",
+        "valor": "R$100"
+    },
+    {
+        "id": "17",
+        "titulo": "Barba + Pigmentação",
+        "tempo": "60min",
+        "valor": "R$60"
+    },
+    {
+        "id": "18",
+        "titulo": "Corte + Alisamento",
+        "tempo": "50min",
+        "valor": "R$90"
+    },
+    {
+        "id": "19",
+        "titulo": "Corte + Luzes",
+        "tempo": "60min",
+        "valor": "R$90"
+    },
+    {
+        "id": "20",
+        "titulo": "Corte + Platinado",
+        "tempo": "90min",
+        "valor": "R$160"
+    }
+]

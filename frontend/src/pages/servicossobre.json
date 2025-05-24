@@ -1,0 +1,178 @@
+[
+    {
+        "titulo": "Corte",
+        "descricao": [
+            " Quer ter uma experiência de corte de cabelo como você nunca teve?",
+            " O serviço é ofertado e executado pensando em seu gosto pessoal, prezando pela",
+            " assimetria facial do seu rosto e sugerindo (caso solicitado) o que combina melhor",
+            " com o seu perfil, esse serviço será prestado por profissionais habilidosos e de exíma", 
+            " qualidade."
+        ]
+    },
+    {
+        "titulo": "Barba",
+        "descricao": [
+            " Temos profissionais extremamente habilidosos que irão proporcionar a",
+            " você uma experiência incrível na limpeza e manutenção de sua barba. Nesse",
+            " serviço você desfrutará de uma cortesia, uma técnica chamada barboterapia, onde",
+            " será feito um tratamento completo focado em sua barba, fortalecendo o crescimento",
+            "e saúde de sua barba."
+        ]
+    },
+    {
+        "titulo": "Sobrancelha" ,
+        "descricao": [
+            " Que tal garantir  uma experiência de limpeza de sobrancelha",
+            " indolor e rápido? Aqui aplicamos todo cuidado nesse procedimento utilizando-se de",
+            " materiais que preservam sua pele e faz a manutenção da sua aparência, sendo esse",
+            " serviço executado por profissionais habilidosos e exíma qualidade."
+        ]
+    },
+    {
+        "titulo": "Hidratação" ,
+        "descricao": [
+            " Venha proporcionar a você uma experiência",
+            " singular, onde seu cabelo ou barba receberá o cuidado que merece, com a utilização",
+            " produtos de altíssima qualidade. Você se sentirá renovado (a) após receber esse",
+            " serviço."
+            
+        ]
+    },
+    {
+        "titulo": "Limpeza facial" ,
+        "descricao": [
+            " Mantenha sua pele sempre cuidada e tratada, temos",
+            " profissionais prontos que irão proporcionar uma limpeza profunda em sua pele,",
+            " removendo impurezas, e trazendo o renovo e vigor que sua pele merece."
+        ]
+    },
+    {
+        "titulo": "Luzes" ,
+        "descricao": [
+            " Aqui respeitamos o tempo de reação do seu cabelo com produtos de",
+            " altíssima qualidade que conseguirão te entregar o resultado desejado, além de todas",
+            " as dicas que lhe forneceremos e indicação de produtos para manter o visual novo e",
+            " arrojado."
+        ]
+    },
+    {
+        "titulo": "Pigmentação" ,
+        "descricao": [
+            " Sabe aquele fio de cabelo branco que vem lhe incomodando? Ou",
+            " até mesmo aquela mecha de cabelo que está destoando das demais, podemos", 
+            " adequar a tonalidade dos fios. Para isso ofertamos o serviço de pigmentação, o qual",
+            " será executada por profissionais habilidosos e de exímia qualidade."
+        ]
+    },
+    {
+        "titulo": "Alisamento Americano" ,
+        "descricao": [
+            " Que tal tratar o seu visual, aplicando uma técnica",
+            " chamada Alisamento Americano? Ou melhor, como popularmente conhecido no",
+            " Brasil como ‘’Escova’’. Consiste no alisamento e hidratação com diminuição de frizz,",
+            " venha desfrutar desse serviço que trará um novo frescor aos seus cabelos, o qual",
+            " será executado por profissionais habilidosos e de exímia qualidade."
+        ]
+    },
+    {
+        "titulo": "Platinado" ,
+        "descricao": [
+            " Quer diferenciar com a ousadia que só esse procedimento tem?",
+            " Garanta esse visual para ser destaque com representação e estilo por onde passar.",
+            " Serão utilizados produtos de altíssima qualidade que respeitará o tempo necessário",
+            " do seu cabelo na aderência desse novo visual, lhe garantimos uma experiência de",
+            " excelência com profissionais de alto nível para esse serviço."
+        ]
+    },
+    {
+        "titulo": "Corte + Sobrançelha" ,
+        "descricao": [
+            " Que tal esse combo que dá um match legal quando se",
+            " trata em dar um tapa no ‘’visu’’? Esses serviços combinados lhe garantirão estilo e",
+            " alguém que preza pelo autocuidado e zelo por sua imagem, conheça e desfrute",
+            " dessa experiência com profissionais altamente capacitados."
+        ]
+    },
+    {
+        "titulo": "Corte + Barba" ,
+        "descricao": [
+            " O combo básico do homem moderno, vai cortar o cabelo garanta",
+            " já também para sua barba. Esteja alinhadíssimo para casualidades, eventos, e todo",
+            " rolê que aparecer, não deixe de desfrutar dessa combinação que é um clássico na",
+            " barbearia. Garantiremos os melhores profissionais para lhe atender."
+        ]
+    },
+    {
+        "titulo": "Corte + Barba + Sobrançelha" ,
+        "descricao": [
+            " Quem faz corte e barba não pode se dar o luxo",
+            " de sair com uma sobrancelha sem limpeza por aí né? Esse combo é o match",
+            " perfeito para alcançar a ‘’perfeição’’. Faça por você e garanta uma imagem",
+            " poderosíssima em estilo, personalidade e autocuidado. Sempre ofertaremos os", 
+            " melhores profissionais para você."
+        ]
+    },
+    {
+        "titulo": "Corte + Hidratação" ,
+        "descricao": [
+            " Um corte requer uma boa hidratação quando falamos em",
+            " manter o brilho e cuidado com seus cabelos, não é mesmo? Então aproveite e", 
+            " garanta não apenas a renovação do seu ‘’visu’’ mas também o brilho necessário",
+            " para lhe garantir sucesso por onde andar."
+        ]
+    },
+    {
+        "titulo": "Barba + Hidratação" ,
+        "descricao": [
+            " Garanta não apenas personalidade, mas também brilho e", 
+            " manutenção para sua barba, pois ela merece. Como dizem por aí, ‘’barba tem vida", 
+            " própria’’, então mantenha a saudável e bem vistosa por onde andar. Aqui haverá", 
+            " Barbeiros da mais alta cúpula  para lhe deixar alinhadíssimo."
+        ]
+    },
+    {
+        "titulo": "Corte + Pigmentação" ,
+        "descricao": [
+            " Desfrute de estilo e destaque ao mesmo tempo. Agenda", 
+            " esse combo de serviços para sair com um visual que representará sua identidade", 
+            " visual para o mundo. Conte conosco para esse sucesso através de profissionais que", 
+            " lhe prestarão os serviços em um espetáculo de técnicas e habilidades."
+        ]
+    },
+    {
+        "titulo": "Barba + Pigmentação" ,
+        "descricao": [
+            " Não deixe que algo destoe,  garanta esse combo de", 
+            " serviços e obtenha jovialidade e padronização em seu visual. Lhe dê esse presente", 
+            " na garantia de uma imagem que represente seu espírito jovem. Aqui você garantirá", 
+            " uma experiência formidável com profissionais altamente capacitados."
+        ]
+    },
+    {
+        "titulo": "Corte + Alisamento" ,
+        "descricao": [
+            " Outro combo que é um magnata quando falamos de estilo e", 
+            " versatilidade. Renove seu visual e garanta um estilo com muito inovador e", 
+            " impactante. Venha fazer conosco e confie que lhe entregaremos o melhor através de", 
+            " nossos profissionais que estarão prontos e hábeis para lhe atender."
+        ]
+    },
+    {
+        "titulo": "Corte + Luzes" ,
+        "descricao": [
+            " Ainda falando em versatilidade e estilo, esse combo é top10", 
+            " quando se fala em dar um novo significado para sua imagem, é garantia de sucesso", 
+            " em eventos e no dia a dia, visto que tratará uma identidade visual alinhada e muito", 
+            " despojada. Venha conosco para ter uma experiência incrível."
+        ]
+    },
+    {
+        "titulo": "Corte + Platinado" ,
+        "descricao": [
+            " E aí que tal fazer sua manutenção e já garantir um estilo",
+            " altamente despojado e descontraído? Garanta esse combo e já saia com um visual", 
+            " arrojado. De nossa parte você terá à sua disposição os melhores profissionais para", 
+            " lhe atender, assegurando a utilização de produtos e técnicas de altíssima qualidade."
+        ]
+    }
+]
