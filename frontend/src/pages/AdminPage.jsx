@@ -16,7 +16,7 @@ function AdminPage() {
     const [error, setError] = useState(null);
     const [selectedDate, setSelectedDate] = useState(moment().format('YYYY-MM-DD'));
     const [selectedProfessional, setSelectedProfessional] = useState('');
-    const [cancelStatus, setCancelStatus] = useState(null); // Estado para feedback de cancelamento
+    const [cancelStatus, setCancelStatus] = useState(null); 
 
     const servicosMap = servicosData.reduce((acc, servico) => {
         acc[Number(servico.id)] = servico.titulo;
@@ -53,7 +53,7 @@ function AdminPage() {
         const fetchAgendamentos = async () => {
             setLoading(true);
             setError(null);
-            setCancelStatus(null); // Limpa o status de cancelamento ao buscar novos agendamentos
+            setCancelStatus(null);
             try {
                 let url = `/api/agendamentos?data=${selectedDate}`;
                 if (selectedProfessional && selectedProfessional !== 'Todos') {
@@ -76,7 +76,7 @@ function AdminPage() {
         };
 
         fetchAgendamentos();
-    }, [selectedDate, selectedProfessional, cancelStatus]); // Adiciona cancelStatus para re-buscar após cancelamento
+    }, [selectedDate, selectedProfessional, cancelStatus]);
 
     const handleCancelAppointment = async (agendamentoId) => {
         if (!window.confirm("Tem certeza que deseja cancelar este agendamento? Esta ação é irreversível.")) {
@@ -94,7 +94,6 @@ function AdminPage() {
             }
 
             setCancelStatus({ message: 'Agendamento cancelado com sucesso!', success: true });
-            // Atualiza a lista de agendamentos localmente para remover o agendamento cancelado
             setAgendamentos(prev => prev.filter(ag => ag.id !== agendamentoId));
 
         } catch (err) {
@@ -141,7 +140,7 @@ function AdminPage() {
                     </div>
                 </div>
 
-                {cancelStatus && ( // Exibe mensagem de sucesso ou erro no cancelamento
+                {cancelStatus && ( 
                     <div className={cancelStatus.success ? Styles.successMessage : Styles.errorMessage}>
                         {cancelStatus.message}
                     </div>
