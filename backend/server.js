@@ -27,9 +27,8 @@ pool.getConnection()
         console.error('Erro ao conectar ao banco de dados:', err);
     });
 
-// Rota para buscar agendamentos (agora com filtros para AdminPage)
 app.get('/api/agendamentos', async (req, res) => {
-    const { data, profissional } = req.query; // Recebe data e nome do profissional como query params
+    const { data, profissional } = req.query; 
 
     try {
         let query = `
@@ -55,7 +54,7 @@ app.get('/api/agendamentos', async (req, res) => {
             params.push(data);
         }
         if (profissional) {
-            query += ' AND A.profissional = ?'; // Filtra pelo nome do profissional
+            query += ' AND A.profissional = ?'; 
             params.push(profissional);
         }
 
@@ -69,18 +68,11 @@ app.get('/api/agendamentos', async (req, res) => {
     }
 });
 
-// Nova rota para buscar a lista de profissionais (para o filtro na AdminPage)
+
 app.get('/api/profissionais', async (req, res) => {
     try {
-        // Assumindo que você tem uma tabela 'Profissionais'
-        // Se não tiver, você pode retornar uma lista estática de nomes de profissionais
-        // ou buscar os nomes distintos da coluna 'profissional' da tabela 'Agendamentos'
         const [profissionais] = await pool.query('SELECT DISTINCT profissional FROM Agendamentos');
-        // Ou, se você tem uma tabela Profissionais:
-        // const [profissionais] = await pool.query('SELECT id, nome FROM Profissionais ORDER BY nome ASC');
-
-        res.json(profissionais.map(p => p.profissional)); // Retorna apenas os nomes dos profissionais
-        // Se usar uma tabela Profissionais, retorne profissionais.map(p => p.nome)
+        res.json(profissionais.map(p => p.profissional));
     } catch (error) {
         console.error('Erro ao buscar profissionais:', error);
         res.status(500).json({ error: 'Erro ao buscar profissionais' });
