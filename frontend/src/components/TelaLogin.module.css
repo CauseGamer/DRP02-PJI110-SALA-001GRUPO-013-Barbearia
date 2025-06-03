@@ -1,29 +1,29 @@
 .loginContainer {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza horizontalmente o conteúdo */
-    justify-content: center; /* Centraliza verticalmente se o contêiner tiver altura definida */
+    align-items: center; 
+    justify-content: center; 
     padding: 30px;
-    background-color: #ffffff; /* Fundo branco para a caixa de login */
-    border-radius: 10px; /* Cantos mais arredondados */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */
-    width: 100%; /* Ocupa a largura disponível no pai */
-    max-width: 400px; /* Limita a largura máxima para telas maiores */
-    margin: 50px auto; /* Centraliza o contêiner na página e adiciona margem superior */
-    box-sizing: border-box; /* Garante que padding e border sejam incluídos na largura/altura */
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+    width: 100%; 
+    max-width: 400px; 
+    margin: 50px auto; 
+    box-sizing: border-box; 
 }
 
 .loginContainer h2 {
-    margin-bottom: 25px; /* Mais espaço abaixo do título */
+    margin-bottom: 25px; 
     color: #333;
-    font-size: 24px; /* Tamanho da fonte maior para o título */
+    font-size: 24px; 
     text-align: center;
-    font-weight: 600; /* Levemente mais negrito */
+    font-weight: 600; 
 }
 
 .error {
-    color: #dc3545; /* Cor de erro mais vibrante (vermelho bootstrap) */
-    background-color: #f8d7da; /* Fundo suave para a mensagem de erro */
+    color: #dc3545; 
+    background-color: #f8d7da;
     border: 1px solid #f5c6cb;
     border-radius: 5px;
     padding: 10px 15px;
@@ -36,62 +36,61 @@
 .inputGroup {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px; /* Mais espaço entre os grupos de input */
+    margin-bottom: 20px;
     width: 100%;
 }
 
 .inputGroup label {
-    margin-bottom: 8px; /* Mais espaço entre label e input */
+    margin-bottom: 8px; 
     color: #555;
-    font-size: 15px; /* Fonte ligeiramente maior */
-    font-weight: 500; /* Levemente mais negrito */
+    font-size: 15px; 
+    font-weight: 500; 
 }
 
 .inputGroup input {
-    padding: 12px 15px; /* Mais padding para melhor toque/clique */
-    border: 1px solid #ced4da; /* Cor de borda mais suave */
-    border-radius: 6px; /* Cantos um pouco mais arredondados */
+    padding: 12px 15px; 
+    border: 1px solid #ced4da; 
+    border-radius: 6px; 
     font-size: 16px;
     color: #333;
     transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
 .inputGroup input:focus {
-    border-color: #007bff; /* Borda azul ao focar */
-    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra de foco */
-    outline: none; /* Remove o outline padrão do navegador */
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+    outline: none; 
 }
 
 .loginButton {
-    background-color: #B18A33; /* Cor primária azul */
+    background-color: #B18A33; 
     color: black;
     border: none;
     border-radius: 6px;
-    padding: 14px 25px; /* Mais padding para um botão maior */
-    font-size: 17px; /* Fonte maior para o botão */
+    padding: 14px 25px; 
+    font-size: 17px; 
     cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.1s ease; /* Adiciona transição de transformação */
+    transition: background-color 0.3s ease, transform 0.1s ease; 
     width: 100%;
-    font-weight: 600; /* Mais negrito */
-    letter-spacing: 0.5px; /* Espaçamento entre letras */
+    font-weight: 600; 
+    letter-spacing: 0.5px; 
 }
 
 .loginButton:hover {
-    background-color: #b1882f; /* Azul mais escuro ao passar o mouse */
-    transform: translateY(-2px); /* Pequeno efeito de elevação */
+    background-color: #b1882f; 
+    transform: translateY(-2px); 
 }
 
 .loginButton:disabled {
-    background-color: #cccccc; /* Cinza para botão desabilitado */
+    background-color: #cccccc;
     color: white;
     cursor: not-allowed;
-    transform: translateY(0); /* Remove o efeito de elevação quando desabilitado */
+    transform: translateY(0); 
 }
 
-/* Responsividade básica para telas menores */
 @media (max-width: 600px) {
     .loginContainer {
-        margin: 20px 15px; /* Menos margem em telas pequenas */
+        margin: 20px 15px; 
         padding: 20px;
     }
 
