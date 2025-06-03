@@ -1,4 +1,3 @@
-
 .containerHour {
   display: flex;
   flex-direction: column;
@@ -14,7 +13,6 @@
   margin-bottom: 10px;
 }
 
-/* Estilos para a mensagem de status (erro ou sucesso) */
 .error {
   background-color: #ffe0e0;
   color: #cc0000;
